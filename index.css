@@ -1,0 +1,25 @@
+table {
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	font-size: 20pt;
+}
+
+table:hover {
+    cursor: default;
+}
+
+td {
+	 height: 8vh;
+	 padding-top: 2vh;
+	 padding-bottom: 2vh;
+}
+
+@media screen and (orientation: portrait) {
+    table {
+        font-size: 40pt;
+        font-weight: 10px;
+        background-color: blue;
+    }
+}
+
